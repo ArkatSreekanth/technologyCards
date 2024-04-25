@@ -1,0 +1,55 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+.card-style {
+  border-radius: 18px;
+  max-width: 100%;
+  list-style: none;
+  padding: 18px;
+  margin: 24px;
+}
+
+.card-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  color: #171f46;
+  align-self: flex-start;
+  margin-bottom: 12px;
+}
+
+.description {
+  color: #64748b;
+  align-self: flex-start;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.img-icon {
+  width: 130px;
+  height: 140px;
+  align-self: flex-end;
+}
+
+@media (min-width: 992px) {
+  .card-style {
+    max-width: 520px;
+    max-height: 500px;
+  }
+}
